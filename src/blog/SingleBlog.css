@@ -1,0 +1,36 @@
+.navigation-part {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0; /* Adjust padding as needed */
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item.left {
+  align-items: flex-start;
+}
+
+.nav-item.right {
+  align-items: flex-end;
+}
+
+.prev {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000; 
+  font-weight: bold;
+}
+
+.prev i {
+  margin-right: 5px; 
+}
+
+.title {
+  text-decoration: none;
+}
+
+

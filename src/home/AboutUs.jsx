@@ -44,7 +44,7 @@ const AboutUs = () => {
                         <span className="count">
                           <CountUp end={val.count} />
                         </span>
-                        <span></span>
+                        <span>+</span>
                       </h2>
                       <p>{val.text}</p>
                     </div>
@@ -66,7 +66,7 @@ const AboutUs = () => {
 
             <div className="col">
               <div className="instructor-thumb">
-                <img src="/src/assets/images/instructor/01.png" alt="" />
+                <img src="/assets/images/instructor/01.png" alt="" />
               </div>
             </div>
           </div>

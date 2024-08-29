@@ -1,11 +1,10 @@
-.nav-profile {
+nav-profile {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background: indigo;
   cursor: pointer;
 }
-
 
 .page-item {
   width: 46px;

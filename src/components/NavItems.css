@@ -2,3 +2,73 @@
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.8);
 }
+.user-profile {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.profile-photo {
+  width: 45px; 
+  height: 45px; 
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; 
+  right: 0; 
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  z-index: 1000;
+  padding: 10px 0;
+  display: none;
+}
+
+
+.user-profile:hover .dropdown-menu,
+.user-profile .dropdown-menu.open {
+  display: block;
+}
+
+
+.dropdown-menu li {
+  list-style: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f1f1f1;
+}
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: -600px;
+  right: 20px;
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.scroll-top-btn:hover {
+  background-color: #ff5733;
+}

@@ -1,0 +1,31 @@
+.footer-item .office-address li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-item .office-address li i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ff5733;
+}
+
+.footer-item .social-icons li a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ff5733;
+}
+
+.footer-item .social-icons li a:hover {
+    color: #00bfff;
+}
+
+.footer-item .lab-ul li p a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-item .lab-ul li p a:hover {
+    text-decoration: underline;
+}

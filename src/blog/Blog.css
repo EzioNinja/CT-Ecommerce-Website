@@ -1,0 +1,31 @@
+.meta-item {
+  display: flex;
+  align-items: center; 
+  margin-right: 15px; 
+}
+
+.meta-icon {
+  margin-right: 8px; 
+  font-size: 14px; 
+  color: #1e90ff; 
+}
+
+.meta-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.post-title {
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.post-desc {
+  color: #555;
+  font-size: 16px;
+}
+
+.comment-count {
+  color: #888;
+}

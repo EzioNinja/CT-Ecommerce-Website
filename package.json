@@ -13,15 +13,17 @@
     "@fortawesome/fontawesome-free": "^6.5.2",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
+    "firebase": "^10.13.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "react": "^18.3.1",
+    "react-app-env": "^1.2.3",
     "react-bootstrap": "^2.10.4",
     "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.24.1",
     "sort-by": "^1.2.0",
-    "swiper": "^11.1.4"
+    "swiper": "^11.1.8"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
