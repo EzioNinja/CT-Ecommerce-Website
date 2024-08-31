@@ -36,11 +36,21 @@ $ npm install
 ```
 
 ## 💻 Built With
-
-- **ReactJS**
-- **Bootstrap**
-- **Swiper**
-- **Firebase**
+<a href="">
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  </a>
+  <br/>
+  <a href="">
+      <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
+  </a>
+  <br/>
+  <a href="">
+      <img src="https://img.shields.io/badge/Swiper-6332F6.svg?style=for-the-badge&logo=Swiper&logoColor=white" />
+    <a/>
+  <br/>
+  <a href="">
+  <img src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <a/>
 
 ## 📂 File Structure
 
